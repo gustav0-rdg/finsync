@@ -1,0 +1,32 @@
+.finances{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.finances__recentes{
+    width: 30%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 20px;
+}
+
+.finances__recentes-card{
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: start;
+
+}
+
+.finances__recentes-card h1{
+    font-weight: bold;
+}
