@@ -7,7 +7,7 @@ import { ReactEventHandler, useState } from 'react';
 import '../aside/styles.css'
 
 export default function Aside({changePage}:{changePage: React.Dispatch<React.SetStateAction<number>>}){
-    const [page, setPage] = useState(0);
+    const [page, setPage] = useState(1);
 
     return (
         <aside className="aside">
