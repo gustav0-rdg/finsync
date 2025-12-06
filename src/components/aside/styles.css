@@ -1,0 +1,52 @@
+.aside{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 15%;
+    gap: 10px;
+    background-color: rgb(213, 209, 209);
+    padding: 5px;
+
+}
+
+.aside .aside__btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    width: 76%;
+}
+
+.aside .aside__btn:hover{
+    background-color: rgb(168, 168, 168);
+}
+
+.aside .aside__btn.active{
+    background-color: rgb(142, 177, 223);
+    color: rgb(9, 9, 93);
+}
+
+.aside__btn.aside__btn-icon{
+    width: 20%;
+}
+
+.aside__btn.aside__btn-text{
+    width: 80%;
+}
+
+.aside__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+}
+
+.aside h1{
+    color: black;
+    font-weight: bolder;
+    font-size: 32px;
+}
